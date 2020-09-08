@@ -23,10 +23,9 @@ export class MapViewComponent implements OnInit {
     // init map
     this.initMap();
     this.locationsService.getLocations$().subscribe(locations => {
+
       this.drawTrafficLayer(locations);
-      locations.forEach(doc => {
-        console.log(doc);
-      });
+
     });
   }
 
@@ -38,10 +37,11 @@ export class MapViewComponent implements OnInit {
         zoom: 11.3,
         center: [34.6, 31.3]
       });
-      this.map.on('zoom', () => console.log(this.map.getZoom()))
       this.map.on('load', () => {
         this.isMapLoaded = true;
         this.map.resize();
+
+        // add helicopter and aircraft icons
         this.map.loadImage(
           '../../assets/images/helicopter.png',
           (error, image) => {
@@ -77,7 +77,6 @@ export class MapViewComponent implements OnInit {
       // create geoJson item for each traffic
       const coordinates = [traffic.lng, traffic.lat];
       const trafficJson = new GeoJsonPoint(coordinates, {...traffic});
-      console.log(trafficJson)
       trafficArr.push(trafficJson);
     }
 
@@ -108,12 +107,13 @@ export class MapViewComponent implements OnInit {
           'text-offset': [0, 0.5],
           'text-anchor': 'top',
           'text-size': {
-
             base: 1,
-            stops: [[1, 0] , [9.99 , 0] ,[10, 16], [22, 32]]
+            stops: [[1, 0] , [9.99 , 0] , [10, 16], [22, 32]]
           }
         },
-        paint: {}
+        paint: {
+          'text-color' : ['get', 'timeColor']
+        }
 
       });
     } else {

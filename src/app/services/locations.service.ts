@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {AngularFirestore, AngularFirestoreCollection} from '@angular/fire/firestore';
 import {BehaviorSubject, timer} from 'rxjs';
-import {switchMap} from 'rxjs/operators';
+import {switchMap, timestamp} from 'rxjs/operators';
 import {LocationItem} from '../model/location.model';
 
 @Injectable({
@@ -11,12 +11,13 @@ export class LocationsService {
   locationsCollection: AngularFirestoreCollection<any>;
   locationTimerSubscription;
   currentLocations$: BehaviorSubject<LocationItem[]> = new BehaviorSubject<LocationItem[]>([]);
+  cutOffTime = 5; // minutes
+  shortTImeCutOff = 15; // seconds
+  medTImeCutOff = 30; // seconds
+  longTImeCutOff = 60; // seconds
 
   constructor(private afs: AngularFirestore) {
-    this.locationsCollection = this.afs.collection(
-      `locations`,
-      ref => ref.orderBy('timestamp')
-    );
+
     this.startLocationGet();
   }
 
@@ -31,12 +32,31 @@ export class LocationsService {
     this.locationTimerSubscription =
       timer(0, 1000)
         .pipe(
-          switchMap(() => this.locationsCollection.get())
+          switchMap(() => {
+            const dateNow = new Date().getTime() ;
+            this.locationsCollection = this.afs.collection(
+              `locations`,
+              ref => ref.orderBy('timestamp').where('timestamp' , '>' ,  (dateNow) - (1000 * 60 * this.cutOffTime)  )
+            );
+            return this.locationsCollection.get();
+          })
         )
         .subscribe( data => {
           const tempLocations: LocationItem[] = [];
+          const currentTime = new Date().getTime();
+
           data.forEach(doc => {
-            tempLocations.push(doc.data() as LocationItem);
+            const locaionItem = doc.data() as LocationItem;
+            const lastSeen = currentTime - locaionItem.timestamp;
+
+            if (lastSeen >  this.shortTImeCutOff * 1000) {
+              locaionItem.timeColor = '#04a2da';
+              // locaionItem.callsign = locaionItem.callsign + '\n' + Math.floor(lastSeen / 1000);
+            }
+            if (lastSeen > this.medTImeCutOff * 1000) {
+              locaionItem.timeColor = 'red';
+            }
+            tempLocations.push(locaionItem);
           });
           this.currentLocations$.next(tempLocations);
         });
@@ -44,6 +64,7 @@ export class LocationsService {
   }
 
   stopLocationGet() {
+    this.currentLocations$.next([]);
     this.locationTimerSubscription.unsubscribe();
   }
 

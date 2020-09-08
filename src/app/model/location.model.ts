@@ -8,4 +8,5 @@ export interface LocationItem {
   uid: string;
   callsign: string;
   type: string;
+  timeColor: string;
 }

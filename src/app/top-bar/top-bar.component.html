@@ -1,14 +1,14 @@
 <mat-toolbar>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+  <button mat-icon-button class="icon">
     <mat-icon>menu</mat-icon>
   </button>
   <span style="margin-left: 0.2rem;">Base 6 - Heli Tower</span>
-  <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon" (click)="toggleGet()">
-    <mat-icon>favorite</mat-icon>
+  <span class="spacer"></span>
+
+  <button mat-icon-button class="icon favorite-icon" (click)="toggleGet()">
+    <mat-icon *ngIf="isOn">pause</mat-icon>
+    <mat-icon *ngIf="!isOn">play_arrow</mat-icon>
   </button>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-    <mat-icon>share</mat-icon>
-  </button>
+
 </mat-toolbar>
 
