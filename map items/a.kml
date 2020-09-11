@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>אזורי קדם - אלפים.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaaa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaaa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaaa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ffffaaaa</color>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>אזורי קדם</name>
+		<open>1</open>
+		<Placemark>
+			<name>א-11</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.49616196743228,31.25612655532519,0 34.49618737281455,31.2451814582504,0 34.53359592627384,31.2200194492826,0 34.54251632662979,31.21999975965585,0 34.53780917193519,31.25051588018255,0 34.53701261322794,31.27173614943869,0 34.54067519206787,31.27989396719463,0 34.49616196743228,31.25612655532519,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-9</name>
+			<styleUrl>#msn_ylw-pushpin2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.4974559860216,31.30933225914125,0 34.49348737916959,31.30929019780093,0 34.48623539397392,31.3097245981907,0 34.48750262311142,31.28794009034952,0 34.4906386304199,31.28017177534361,0 34.49288089411082,31.26625334273647,0 34.49592027213884,31.25712858781367,0 34.54144996916887,31.28180596366668,0 34.54191451444898,31.28292665895901,0 34.53619999600707,31.29927688383501,0 34.52612718290508,31.31629196814618,0 34.51396014340187,31.31384958218238,0 34.50891064682092,31.31205555569492,0 34.4974559860216,31.30933225914125,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-10</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.43297448528518,31.29293102794698,0 34.43373892995694,31.27056999577853,0 34.43531400660553,31.26634960016047,0 34.49579752069429,31.25711890647889,0 34.49276223794101,31.26619847683475,0 34.49049707546502,31.28014628559094,0 34.48736643230609,31.28793019776093,0 34.48610616813791,31.30977071856244,0 34.4828046231643,31.31058264019572,0 34.47935943807686,31.31058229846266,0 34.45423631964025,31.31147612532013,0 34.43919327138753,31.31321567158965,0 34.43297448528518,31.29293102794698,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-3</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.5249493388782,31.31658499293829,0 34.51816907936389,31.32810276016388,0 34.50083917280099,31.34468343133967,0 34.48909346072696,31.35963713815276,0 34.47225442322213,31.36814723469032,0 34.47010170466034,31.37040872179073,0 34.44982667807582,31.31225753150574,0 34.4829424727782,31.31097768186622,0 34.48621012574093,31.31025894320816,0 34.49376463711392,31.30966534685261,0 34.49708774694241,31.31009205022302,0 34.50852789226615,31.31269508964412,0 34.51363122985157,31.31443586523753,0 34.5249493388782,31.31658499293829,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-4</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.50133829647919,31.34534644384652,0 34.51499208746959,31.33219922323872,0 34.52317652638246,31.33879972094869,0 34.54005493524094,31.36493821034536,0 34.5513965122341,31.36378579967355,0 34.56070617429387,31.36660585133722,0 34.57483026267939,31.38803959936258,0 34.56287297119621,31.38835724830614,0 34.55203833184606,31.38528812320661,0 34.53824149088216,31.38819080730849,0 34.52872544398379,31.39306542664924,0 34.51964299719237,31.40114965480701,0 34.48637576103058,31.36189163384914,0 34.4897135444679,31.36011336965707,0 34.50133829647919,31.34534644384652,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-6</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.51944180562511,31.40126675128743,0 34.49465667707156,31.41682658862758,0 34.49208374426445,31.41412775922234,0 34.48320664023271,31.40658007619443,0 34.47689904085994,31.40308117409145,0 34.47186520300119,31.39623933755067,0 34.46073427011449,31.37963856671036,0 34.46378736909915,31.37764375670399,0 34.47262956827525,31.36878858782303,0 34.48612293211249,31.36199036201014,0 34.51944180562511,31.40126675128743,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-2</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.54021555880382,31.36475292290546,0 34.58608527048807,31.34711843390526,0 34.59347661562647,31.3500883896873,0 34.61472902490531,31.34248515044266,0 34.62466613959359,31.32764150878079,0 34.64815687381844,31.3373496707977,0 34.63416573915214,31.34849728188322,0 34.61291086143885,31.37798614259684,0 34.61021836573074,31.40335805089591,0 34.60433593428501,31.41453712733093,0 34.57500629918363,31.3879672016279,0 34.56084480587103,31.36646831669013,0 34.5514401719967,31.36361304557068,0 34.54021555880382,31.36475292290546,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-1</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.52603274095517,31.31696385247541,0 34.53621779336464,31.31913440424471,0 34.54993002918307,31.31758522800125,0 34.56403036519062,31.3177197924886,0 34.58629284451726,31.31579712503289,0 34.60524781085862,31.31852039772926,0 34.61980057673397,31.32351035258495,0 34.62427573738785,31.32743981494007,0 34.61438088873437,31.34205267438435,0 34.59341231548792,31.34962167433477,0 34.58600689818802,31.34666021819371,0 34.54008907880355,31.36446907029917,0 34.52342506548909,31.33865959191199,0 34.5152995668034,31.33196093273096,0 34.51863405588077,31.32848159386473,0 34.52603274095517,31.31696385247541,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-5</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.60418039800516,31.41470591642759,0 34.5960907626509,31.42948936663771,0 34.56835781432715,31.44555772490971,0 34.56102661920895,31.44849713742123,0 34.53902031620587,31.42658740086432,0 34.53755734204798,31.42195431786333,0 34.51999927195317,31.40139007256879,0 34.52890551524311,31.39338429127465,0 34.53851902464415,31.38842679592722,0 34.55198470002625,31.38546483466559,0 34.56299921488952,31.38853550068067,0 34.57491869272132,31.38824112045406,0 34.60418039800516,31.41470591642759,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-7</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.56081244444911,31.44879077314086,0 34.55476063479834,31.45320440931261,0 34.54192223464238,31.45989594508899,0 34.53524917617874,31.4637890046175,0 34.49902728584631,31.42868272830252,0 34.49495313044964,31.41711266315616,0 34.51965381214774,31.40158176627448,0 34.53714649763032,31.42199106604084,0 34.53862757511372,31.4265568086589,0 34.56081244444911,31.44879077314086,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>א-8</name>
+			<styleUrl>#msn_ylw-pushpin1</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.58468669485809,31.50358242373143,0 34.5747654360871,31.49145772422322,0 34.53655930569128,31.46485138816345,0 34.54256424746288,31.46129572134785,0 34.55593306867267,31.45395087566915,0 34.56335937751346,31.44863658822776,0 34.56958136172757,31.44724356017954,0 34.58080123674945,31.44143174493243,0 34.58424194454648,31.43851668189841,0 34.59673658985076,31.43199635724071,0 34.59758010939436,31.4487932270542,0 34.59022618255229,31.46302114681635,0 34.58552882271731,31.48952460330456,0 34.58638798243438,31.50005439040175,0 34.58468669485809,31.50358242373143,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

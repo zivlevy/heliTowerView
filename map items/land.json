@@ -1,0 +1,145 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.55928822070281,
+                    31.47089357060058,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת סעד",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.48934331888363,
+                    31.41119897164678,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת בארי",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.53751381605193,
+                    31.26804939877795,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת לב הנגב",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.7225303151174,
+                    31.28650189254394,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת שדה תימן",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.71940911202291,
+                    31.46148019445447,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת רוחמה",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.46008298212207,
+                    31.2271190842429,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת גבולות",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    34.76913137944133,
+                    31.6976381652209,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "מנחת קדמה",
+                "styleUrl": "#m_ylw-pushpin",
+                "styleHash": "5583955",
+                "styleMapHash": {
+                    "normal": "#s_ylw-pushpin",
+                    "highlight": "#s_ylw-pushpin_hl"
+                }
+            }
+        }
+    ]
+}

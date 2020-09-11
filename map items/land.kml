@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>מנחתים אזרחיים.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<color>ff00ffff</color>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff00ffff</color>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>מנחתים אזרחיים</name>
+		<open>1</open>
+		<Placemark>
+			<name>מנחת סעד</name>
+			<LookAt>
+				<longitude>34.56214466588323</longitude>
+				<latitude>31.47153556955019</latitude>
+				<altitude>0</altitude>
+				<heading>4.994683034157709</heading>
+				<tilt>15.59535187726948</tilt>
+				<range>2282.737211715721</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.55928822070281,31.47089357060058,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>מנחת בארי</name>
+			<LookAt>
+				<longitude>34.49028644876437</longitude>
+				<latitude>31.41253473680373</latitude>
+				<altitude>0</altitude>
+				<heading>4.995457837354257</heading>
+				<tilt>26.89028526808252</tilt>
+				<range>1325.726810880346</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.48934331888363,31.41119897164678,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>מנחת לב הנגב</name>
+			<Camera>
+				<longitude>34.53890045539535</longitude>
+				<latitude>31.26816094861823</latitude>
+				<altitude>1573.585471949651</altitude>
+				<heading>-75.07987865272008</heading>
+				<tilt>0.03074417570096197</tilt>
+				<roll>-78.1918309694543</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.53751381605193,31.26804939877795,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>מנחת שדה תימן</name>
+			<LookAt>
+				<longitude>34.7231419375828</longitude>
+				<latitude>31.28772440502938</latitude>
+				<altitude>0</altitude>
+				<heading>3.054381673214399</heading>
+				<tilt>11.19017237976792</tilt>
+				<range>3754.45872467065</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.7225303151174,31.28650189254394,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>מנחת רוחמה</name>
+			<LookAt>
+				<longitude>34.71987382911528</longitude>
+				<latitude>31.46168198637348</latitude>
+				<altitude>0</altitude>
+				<heading>3.138615663856449</heading>
+				<tilt>22.35009157693955</tilt>
+				<range>2197.08481624364</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.71940911202291,31.46148019445447,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>מנחת גבולות</name>
+			<LookAt>
+				<longitude>34.46090895957148</longitude>
+				<latitude>31.22829465804614</latitude>
+				<altitude>0</altitude>
+				<heading>4.286053083539948</heading>
+				<tilt>16.81713367369937</tilt>
+				<range>2429.764519857836</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.46008298212207,31.2271190842429,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>מנחת קדמה</name>
+			<LookAt>
+				<longitude>34.76938525336567</longitude>
+				<latitude>31.69797338111377</latitude>
+				<altitude>0</altitude>
+				<heading>-0.002852260136528781</heading>
+				<tilt>0</tilt>
+				<range>1653.122268017984</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>34.76913137944133,31.6976381652209,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

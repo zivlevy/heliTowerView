@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>גימלים.kml</name>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>4</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>גימלים</name>
+		<open>1</open>
+		<Placemark>
+			<name>ג-1</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.73093320378447,31.3282355549359,0 34.73251541639024,31.31969511676878,0 34.74098396579431,31.31727742134728,0 34.74736987919473,31.31364510927358,0 34.75342596030585,31.30760410167828,0 34.75741525082095,31.30103943627327,0 34.76037270552069,31.29377265269826,0 34.76070251288395,31.28551291364294,0 34.78580471508482,31.2854502258433,0 34.78286506661553,31.32626814420836,0 34.78725165139078,31.34291468085889,0 34.73481173134959,31.35735102516916,0 34.71293489532894,31.34737312688441,0 34.70943139096949,31.34144510941832,0 34.73093320378447,31.3282355549359,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>ג-2</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							34.73478775801649,31.35768402639616,0 34.78743196155042,31.34326778907337,0 34.79053218692121,31.36537840552403,0 34.78662399684379,31.38074468650256,0 34.7827511909628,31.41421534305187,0 34.77871277100758,31.42457968709461,0 34.76540437639461,31.43823424101134,0 34.75140329697384,31.41028427213618,0 34.72912383887717,31.3881556450964,0 34.71263919490807,31.35917097698821,0 34.71292486735778,31.34774154851813,0 34.73478775801649,31.35768402639616,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

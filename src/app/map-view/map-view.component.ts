@@ -33,9 +33,9 @@ export class MapViewComponent implements OnInit {
     setTimeout(() => {
       this.map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        zoom: 11.3,
-        center: [34.6, 31.3]
+        style: 'mapbox://styles/zivlevy/ckey19acw0ors19qwjw5h0gqd',
+        zoom: 10.0,
+        center: [34.6, 31.4]
       });
       this.map.on('load', () => {
         this.isMapLoaded = true;
@@ -100,6 +100,7 @@ export class MapViewComponent implements OnInit {
             stops: [[1, 0.0], [10, 0.2], [22, 0.5]]
           },
           'text-field': ['get', 'callsign'],
+          'text-allow-overlap': true,
           'text-font': [
             'Open Sans Semibold',
             'Arial Unicode MS Bold'
