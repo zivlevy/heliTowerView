@@ -1,0 +1,34 @@
+<div class="list-wrapper" dir="rtl">
+  <mat-grid-list cols="3" rowHeight="20px">
+    <mat-grid-tile>
+      <div class="call-sign">או״ק</div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <div class="last-seen">עודכן לפני</div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      מחק
+    </mat-grid-tile>
+
+  </mat-grid-list>
+</div>
+<div *ngFor="let location of locations" class="list-wrapper">
+  <div class="list-item" dir="rtl">
+    <mat-grid-list cols="3" rowHeight="20px">
+      <mat-grid-tile>
+        <div class="call-sign">{{location.callsign}}</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <div class="last-seen">{{(currentTime - location.timestamp) / 1000 | number: '.0-0'}}</div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <button mat-icon-button color="warn" (click)="remove(location.uid)">
+          <mat-icon>delete</mat-icon>
+        </button>
+      </mat-grid-tile>
+
+    </mat-grid-list>
+
+
+  </div>
+</div>

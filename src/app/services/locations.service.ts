@@ -36,7 +36,8 @@ export class LocationsService {
             const dateNow = new Date().getTime() ;
             this.locationsCollection = this.afs.collection(
               `locations`,
-              ref => ref.orderBy('timestamp').where('timestamp' , '>' ,  (dateNow) - (1000 * 60 * this.cutOffTime)  )
+              ref => ref.orderBy('timestamp', 'desc')
+                // .where('timestamp' , '>' ,  (dateNow) - (1000 * 60 * this.cutOffTime)
             );
             return this.locationsCollection.get();
           })
@@ -62,6 +63,11 @@ export class LocationsService {
         });
 
   }
+
+  deleteLocation(id: string) {
+    this.afs.doc('locations/' + id).delete();
+  }
+
 
   stopLocationGet() {
     this.currentLocations$.next([]);

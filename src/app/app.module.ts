@@ -13,6 +13,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { MainViewComponent } from './main-view/main-view.component';
 import { MapViewComponent } from './map-view/map-view.component';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
+import { LocationViewComponent } from './location-view/location-view.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import {AngularFirestoreModule} from '@angular/fire/firestore';
     TopBarComponent,
     MainViewComponent,
     MapViewComponent,
+    LocationViewComponent,
   ],
   imports: [
     BrowserModule,

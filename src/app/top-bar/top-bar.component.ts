@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {LocationsService} from '../services/locations.service';
+import {MenuService} from '../services/menu.service';
 
 @Component({
   selector: 'app-top-bar',
@@ -8,7 +9,8 @@ import {LocationsService} from '../services/locations.service';
 })
 export class TopBarComponent implements OnInit {
   isOn = true;
-  constructor(private locationsService: LocationsService) { }
+  constructor(private locationsService: LocationsService,
+              private menuService: MenuService) { }
 
   ngOnInit() {
   }
@@ -20,6 +22,10 @@ export class TopBarComponent implements OnInit {
     } else {
       this.locationsService.stopLocationGet();
     }
+  }
+
+  showMenu() {
+      this.menuService.menuState(true);
   }
 
 
